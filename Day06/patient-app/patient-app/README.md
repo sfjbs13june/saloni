@@ -41,7 +41,8 @@ curl --location --request PUT 'localhost:8081/patient/update?disease=fever' \
 "age" : "30",
 "gender" : "male",
 "disease" : "fever"
-}'curl --location --request PUT 'localhost:8081/patient/update?disease=fever' \
+}'
+curl --location --request PUT 'localhost:8081/patient/update?disease=fever' \
 --header 'Authorization: Basic YWRtaW4xMjM6cGFzc3dvcmQ=' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: JSESSIONID=B0F4B04F5C0560D483C665D506BDAA1E' \
