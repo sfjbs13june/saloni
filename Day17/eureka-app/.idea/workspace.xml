@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="107e2ca8-30c3-43c8-8daf-e57c63cf9bd9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Day04/spring-controller-new/.idea/spring-controller-new.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day04/spring-controller-new/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day04/spring-controller-new/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day05/calculator-assignment/.idea/calculator-assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day05/calculator-assignment/calculator-assignment/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day05/calculator-assignment/calculator-assignment/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day05/calculator-assignment/calculator-assignment/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day05/calculator-assignment/calculator-assignment/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day06/patient-app/.idea/patient-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day07/patient-app/.idea/patient-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day08/student-app/student-app/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day08/student-app/student-app/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day08/student-app/student-app/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day08/student-app/student-app/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/docker/.idea/docker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/docker/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/docker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/docker/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/eureka/app/EurekaAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/eureka/app/gateway/GatwayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/eureka/app/gateway/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/eureka/app/gateway/controller/ServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway-service/src/test/java/com/eureka/app/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/eureka/app/school/SchoolApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/eureka/app/school/config/SchoolServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/eureka/app/school/controller/SchoolServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/test/java/com/eureka/app/school/SchoolServiceControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/test/java/com/eureka/app/school/SpringTestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/test/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/eureka/app/student/StudentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/eureka/app/student/controller/StudentServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/eureka/app/student/dto/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/test/java/com/eureka/app/student/StudentServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day05/calculator-assignment/calculator-assignment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day05/calculator-assignment/calculator-assignment/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day05/calculator/.idea/calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day04/.idea/Day04.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day05/calculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day05/calculator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/docker/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day08/student-app/student-app/src/main/java/com/saloni/app/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day08/student-app/student-app/src/main/java/com/saloni/app/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day08/student-app/student-app/src/test/java/com/saloni/app/StudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/src/main/java/com/saloni/app/controller/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/src/main/java/com/saloni/app/controller/DoctorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/src/main/java/com/saloni/app/model/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/src/main/java/com/saloni/app/model/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/src/main/java/com/saloni/app/model/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day09/hospital-app/hospital-app/src/main/java/com/saloni/app/model/Prescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day13/hospital-mongo-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day15/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day15/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LSFTY5Nvgh3PMqVB0JXugnvE9B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/cygwin64/home/sfjbs/training/saloni/Day17/eureka-app"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="107e2ca8-30c3-43c8-8daf-e57c63cf9bd9" name="Changes" comment="" />
+      <created>1675856585669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675856585669</updated>
+    </task>
+    <servers />
+  </component>
+</project>
