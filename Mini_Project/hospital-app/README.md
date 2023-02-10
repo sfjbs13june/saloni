@@ -109,6 +109,7 @@ curl --location --request GET 'localhost:8080/viewprescription?patientName=Karan
 --header 'Cookie: JSESSIONID=1899337142C1E2AD4F00B74B84CF77FF'
 ```
 
-## Swagger
-
+### Swagger
+```
 http://localhost:8080/swagger-ui.html
+```
