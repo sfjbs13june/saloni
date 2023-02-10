@@ -7,6 +7,8 @@ public class Prescription {
 
     String patientName;
     String doctorName;
+
+    public Prescription(){}
     public Prescription(String prescriptionId, String appointmentId, String description, String patientName, String doctorName) {
         this.prescriptionId = prescriptionId;
         this.appointmentId = appointmentId;
