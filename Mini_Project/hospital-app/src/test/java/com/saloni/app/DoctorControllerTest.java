@@ -47,7 +47,7 @@ public class DoctorControllerTest {
         appointment1.setPrescription(prescription1);
         getAppointment.add(appointment1);
         when(appointmentRepository.findByDoctorName(anyString())).thenReturn(getAppointment);
-        List<Appointment>result = doctorController.getAppointments("Doctor1");
+        List<Appointment>result = doctorController.getAppointments("Doctor5");
         assertEquals(getAppointment.size(),1);
         assertEquals(getAppointment.get(0).getAppointmentId(),result.get(0).getAppointmentId());assertEquals(getAppointment.get(0).getAppointmentId(),result.get(0).getAppointmentId());
         assertEquals(getAppointment.get(0).getDate(),result.get(0).getDate());
@@ -61,16 +61,10 @@ public class DoctorControllerTest {
     @Test
     public void TestSaveAppointments(){
         Appointment appointment2 = new Appointment();
-        appointment2.setAppointmentId("05");
-        appointment2.setDate("15/02/2023");
-        appointment2.setPatientName("pqr");
-        appointment2.setDoctorName("Doctor2");
+
         when(appointmentRepository.save(any(Appointment.class))).thenReturn(appointment2);
         Appointment result = doctorController.saveAppointment(appointment);
-        assertEquals(appointment2.getAppointmentId(),result.getAppointmentId());
-        assertEquals(appointment2.getDate(),result.getDate());
-        assertEquals(appointment2.getPatientName(),result.getPatientName());
-        assertEquals(appointment2.getDoctorName(),result.getDoctorName());
+        assertEquals(appointment2,result);
 
 
     }

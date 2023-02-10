@@ -60,18 +60,9 @@ public class PatientControllerTest {
     public void TestSaveAppointment(){
         Appointment patientAppointment = new Appointment();
 
-        patientAppointment.setAppointmentId("01");
-
-        patientAppointment.setDate("13/02/2023");
-        patientAppointment.setPatientName("abc");
-        patientAppointment.setDoctorName("Doctor1");
         when(appointmentRepository.save(any(Appointment.class))).thenReturn(patientAppointment);
         Appointment result = patientController.saveAppointment(appointment);
-        assertEquals(patientAppointment.getAppointmentId(),result.getAppointmentId());
-
-        assertEquals(patientAppointment.getDate(),result.getDate());
-        assertEquals(patientAppointment.getPatientName(),result.getPatientName());
-        assertEquals(patientAppointment.getDoctorName(),result.getDoctorName());
+        assertEquals(patientAppointment,result);
 
 
 

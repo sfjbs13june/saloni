@@ -10,6 +10,24 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @Configuration
 public class HospitalSecurity extends WebSecurityConfigurerAdapter {
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http.httpBasic().and().authorizeRequests()
+                .antMatchers("/swagger-ui/index.html").hasAnyRole("DOCTOR","PATIENT")
+                .antMatchers(HttpMethod.GET, "/doctor/doctorappointment").hasAnyRole("DOCTOR")
+                .antMatchers(HttpMethod.POST, "/doctor/save").hasAnyRole("DOCTOR")
+                .antMatchers(HttpMethod.GET, "/patient/myappointment").hasAnyRole("PATIENT")
+                .antMatchers(HttpMethod.POST, "/patient/save").hasAnyRole("PATIENT")
+                .antMatchers(HttpMethod.GET, "/viewprescription").hasAnyRole("DOCTOR","PATIENT")
+                .antMatchers(HttpMethod.POST, "/saveprescription").hasAnyRole("DOCTOR","PATIENT").and().csrf().disable().headers()
+                .frameOptions().disable();
+    }
+
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+        auth.inMemoryAuthentication().withUser("doctor").password("{noop}doctor123").roles("DOCTOR").and()
+                .withUser("patient").password("{noop}patient123").roles("PATIENT");
+    }
 
 
 
